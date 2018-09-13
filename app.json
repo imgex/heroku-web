@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "env": {
+    "AUTH": {
+       "description": "auth",
+       "value": "web:web"
+     }
+  },
+  "buildpacks": [{"url": "https://github.com/imgex/heroku-buildpack"}]
+}
